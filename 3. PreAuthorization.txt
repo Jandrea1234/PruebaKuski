@@ -1,0 +1,83 @@
+REQUEST
+{
+  "token": "01f04a074fd042f5a1c0d10063e57a27",
+  "amount": {
+    "currency": "USD",
+    "subtotalIva": 0,
+    "subtotalIva0": 50.00,
+    "iva": 0,
+    "ice": 0,
+    "extraTaxes": {
+      "iac": 0,
+      "tasaAeroportuaria": 0,
+      "agenciaDeViaje": 0
+    }
+  },
+  "orderDetails": {
+    "siteDomain": "example.com",
+    "shippingDetails": {
+      "name": "Jenny Morales",
+      "phone": "+593912345678",
+      "address1": "direccion123",
+      "address2": "centro 123",
+      "city": "Quito",
+      "region": "Pichincha",
+      "country": "Ecuador"
+    },
+    "billingDetails": {
+      "name": "Jenny Morales",
+      "phone": "+593912345678",
+      "address1": "direccion123",
+      "address2": "centro 123",
+      "city": "Quito",
+      "region": "Pichincha",
+      "country": "Ecuador"
+    }
+  },
+  "fullResponse": "v2"
+
+}
+
+
+RESPONSE
+
+{
+    "details": {
+        "amount": {
+            "currency": "USD",
+            "subtotalIva": 0,
+            "subtotalIva0": 50,
+            "iva": 0,
+            "ice": 0,
+            "extraTaxes": {
+                "iac": 0,
+                "tasaAeroportuaria": 0,
+                "agenciaDeViaje": 0
+            }
+        },
+        "approvalCode": "000000",
+        "approvedTransactionAmount": 50,
+        "binInfo": {
+            "bank": "Banco de la Produccion S.A. (PRODUBANCO)",
+            "bindCard": "545195",
+            "cardCountry": "Ecuador",
+            "lastFourDigits": "5480",
+            "type": "credit"
+        },
+        "cardHolderName": "Andrea Lopez",
+        "created": 1680189592000,
+        "merchantId": "20000000105107382000",
+        "merchantName": "Prueba Ingreso Peru",
+        "paymentBrand": "Mastercard",
+        "processorBankName": "0032~BANCO INTERNACIONAL",
+        "requestAmount": 50,
+        "responseCode": "000",
+        "responseText": "Transacción aprobada",
+        "transactionId": "026677980583250854",
+        "transactionReference": "b05ca154-3b98-4159-aa1d-ad34ac932219",
+        "transactionStatus": "APPROVAL",
+        "transactionType": "PREAUTHORIZATION"
+    },
+    "ticketNumber": "576500714233144122",
+    "transactionReference": "b05ca154-3b98-4159-aa1d-ad34ac932219"
+}

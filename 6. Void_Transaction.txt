@@ -1,0 +1,34 @@
+REQUEST
+{
+  "fullResponse": "v2",
+  "amount": {
+    "subtotalIva": 0,
+    "subtotalIva0": 50.00,
+    "ice": 0,
+    "iva": 0,
+    "currency": "USD"
+  },
+  "webhooks": [
+    {
+      "events": [
+        "approvedTransaction"
+      ],
+      "headers": [
+        {
+          "label": "json",
+          "value": "12"
+        }
+      ],
+      "urls": [
+        "https://eof2hhkrta4ooo1.m.pipedream.net"
+      ]
+    }
+  ]
+}
+
+RESPONSE 
+
+{
+    "code": "K020",
+    "message": "Transacción rechazada."
+}

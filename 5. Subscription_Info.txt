@@ -1,0 +1,36 @@
+{
+    "amount": {
+        "subtotalIva0": 0,
+        "ice": 0,
+        "currency": "USD",
+        "iva": 0.14,
+        "subtotalIva": 1
+    },
+    "bin": "424242",
+    "cardHolderName": "Jenny Morales",
+    "contactDetails": {
+        "firstName": "Jenny",
+        "lastName": "Morales",
+        "phoneNumber": "+59317325652",
+        "documentType": "CC",
+        "documentNumber": "123256632",
+        "email": "user@example.com"
+    },
+    "created": 1680127393,
+    "lastFourDigits": "4242",
+    "maskedCardNumber": "424242XXXXXX4242",
+    "merchantId": "20000000105107382000",
+    "metadata": {
+        "plan": {
+            "fitness": {
+                "rumba": "include",
+                "pool": "include",
+                "cardio": "include"
+            }
+        }
+    },
+    "periodicity": "monthly",
+    "planName": "Premium",
+    "startDate": 1680048000,
+    "subscriptionId": "1680127393382000"
+}

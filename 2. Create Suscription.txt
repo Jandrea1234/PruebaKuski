@@ -1,0 +1,38 @@
+REQUEST
+
+{
+  "token": "b355612a6e0e4fd9aad0324b461a38df",
+  "planName": "Premium",
+  "periodicity": "monthly",
+  "contactDetails": {
+    "documentType": "CC",
+    "documentNumber": "123256632",
+    "email": "user@example.com",
+    "firstName": "Jenny",
+    "lastName": "Morales",
+    "phoneNumber": "+59317325652"
+  },
+  "amount": {
+    "subtotalIva": 1,
+    "subtotalIva0": 0,
+    "ice": 0,
+    "iva": 0.14,
+    "currency": "USD"
+  },
+  "startDate": "2023-03-29",
+  "metadata": {
+    "plan": {
+      "fitness": {
+        "cardio": "include",
+        "rumba": "include",
+        "pool": "include"
+      }
+    }
+  }
+}
+
+RESPONSE
+
+{
+    "subscriptionId": "1680127393382000"
+}
